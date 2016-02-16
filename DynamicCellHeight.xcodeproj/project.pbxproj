@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B5835781C72A1560096CBDE /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5835771C72A1560096CBDE /* MyTableViewController.swift */; };
 		2BAF92CC1C240F5F00DF89B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF92CB1C240F5F00DF89B5 /* AppDelegate.swift */; };
 		2BAF92D11C240F5F00DF89B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BAF92CF1C240F5F00DF89B5 /* Main.storyboard */; };
 		2BAF92D31C240F5F00DF89B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BAF92D21C240F5F00DF89B5 /* Assets.xcassets */; };
 		2BAF92D61C240F5F00DF89B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BAF92D41C240F5F00DF89B5 /* LaunchScreen.storyboard */; };
 		2BAF92E11C240F5F00DF89B5 /* DynamicCellHeightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF92E01C240F5F00DF89B5 /* DynamicCellHeightTests.swift */; };
-		2BAF92EC1C240FD800DF89B5 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF92EB1C240FD800DF89B5 /* MyTableViewController.swift */; };
 		2BAF92EE1C24100100DF89B5 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF92ED1C24100100DF89B5 /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B5835771C72A1560096CBDE /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		2BAF92C81C240F5F00DF89B5 /* DynamicCellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicCellHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BAF92CB1C240F5F00DF89B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BAF92D01C240F5F00DF89B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -36,7 +37,6 @@
 		2BAF92DC1C240F5F00DF89B5 /* DynamicCellHeightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicCellHeightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BAF92E01C240F5F00DF89B5 /* DynamicCellHeightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCellHeightTests.swift; sourceTree = "<group>"; };
 		2BAF92E21C240F5F00DF89B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BAF92EB1C240FD800DF89B5 /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTableViewController.swift; path = ../MyTableViewController.swift; sourceTree = "<group>"; };
 		2BAF92ED1C24100100DF89B5 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,7 +79,7 @@
 		2BAF92CA1C240F5F00DF89B5 /* DynamicCellHeight */ = {
 			isa = PBXGroup;
 			children = (
-				2BAF92EB1C240FD800DF89B5 /* MyTableViewController.swift */,
+				2B5835771C72A1560096CBDE /* MyTableViewController.swift */,
 				2BAF92CB1C240F5F00DF89B5 /* AppDelegate.swift */,
 				2BAF92CF1C240F5F00DF89B5 /* Main.storyboard */,
 				2BAF92D21C240F5F00DF89B5 /* Assets.xcassets */,
@@ -203,7 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BAF92CC1C240F5F00DF89B5 /* AppDelegate.swift in Sources */,
-				2BAF92EC1C240FD800DF89B5 /* MyTableViewController.swift in Sources */,
+				2B5835781C72A1560096CBDE /* MyTableViewController.swift in Sources */,
 				2BAF92EE1C24100100DF89B5 /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +396,7 @@
 				2BAF92E71C240F5F00DF89B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BAF92E81C240F5F00DF89B5 /* Build configuration list for PBXNativeTarget "DynamicCellHeightTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +405,7 @@
 				2BAF92EA1C240F5F00DF89B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
